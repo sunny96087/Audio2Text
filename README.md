@@ -20,6 +20,7 @@
 **第一步：下載專案**
 ```bash
 git clone https://github.com/sunny96087/Audio2Text.git
+
 cd Audio2Text
 ```
 
@@ -72,17 +73,17 @@ pip3 install -r requirements.txt
 在 `main.py` 開頭的使用者設定區域，您可以修改：
 
 1. 模型大小 (MODEL_SIZE)：
-   - "tiny": 最快但準確度較低
-   - "base": 平衡速度和準確度
-   - "small": 較好的準確度
-   - "medium": 更好的準確度
-   - "large": 最佳準確度但最慢
+   - `tiny`: 最快但準確度較低
+   - `base`: 平衡速度和準確度
+   - `small`: 較好的準確度
+   - `medium`: 更好的準確度
+   - `large`: 最佳準確度但最慢
 
 2. 語言模式 (LANGUAGE_MODE)：
-   - "zh": 純中文模式
-   - "zh-en": 中英混合模式
-   - "en": 純英文模式
-   - "ja": 純日文模式
+   - `zh`: 純中文模式
+   - `zh-en`: 中英混合模式
+   - `en`: 純英文模式
+   - `ja`: 純日文模式
 
 範例：
 ```python
