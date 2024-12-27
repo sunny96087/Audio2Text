@@ -1,0 +1,15 @@
+# 虛擬環境
+whisper_env/
+venv/
+env/
+
+# Python 快取
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Whisper 快取
+whisper_cache/
+
+# macOS
+.DS_Store
